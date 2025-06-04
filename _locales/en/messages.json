@@ -1,0 +1,14 @@
+{
+  "name": {
+    "message": "F Dia",
+    "description": "Extension name"
+  },
+  "short_name": {
+    "message": "F Dia",
+    "description": "Extension short name"
+  },
+  "description": {
+    "message": "Inject a custom “Add Tabs” button into Gemini to scrape and paste your open tabs’ content.",
+    "description": "Extension description"
+  }
+}

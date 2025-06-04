@@ -1,0 +1,35 @@
+{
+  "name": "__MSG_name__",
+  "short_name": "__MSG_short_name__",
+  "description": "__MSG_description__",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "default_locale": "en",
+  "icons": {
+    "16": "icon128.jpg",
+    "48": "icon128.jpg",
+    "128": "icon128.jpg"
+  },
+  "permissions": [
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://gemini.google.com/*",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "js": ["inject.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "F Dia"
+  }
+}
