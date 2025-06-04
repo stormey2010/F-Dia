@@ -14,7 +14,7 @@ You can download the extension code in one of two ways:
 1. **Clone the repository (if available on GitHub):**
 
    ```powershell
-   git clone <repository-url>
+   git clone https://github.com/stormey2010/F-Dia.git
    cd Dia
    ```
 
